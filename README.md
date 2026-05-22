@@ -66,7 +66,8 @@ This is useful for robotic tasks where rewards are sparse and successful attempt
 ```text
 project-folder/
 │
-├── train.py
+├── train_advanced_her.py
+├── test_advanced.py
 ├── models/
 │   └── SAC_HER/
 │       ├── SAC_HER_model_*.zip
@@ -75,5 +76,5 @@ project-folder/
 │
 ├── logs/
 │   └── SAC_*/
-│
+├── .gitignore
 └── README.md
